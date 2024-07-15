@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-size: 1.2rem; /* Tamanho do título reduzido */
+    line-height: 1.2; /* Espaçamento entre linhas reduzido */
+    overflow: hidden; /* Evita que o título quebre o layout */
+    text-overflow: ellipsis; /* Adiciona reticências se o título for muito longo */
+    white-space: nowrap; /* Evita que o título quebre em várias linhas */
+}
+
+.card p {
+    margin: 2px 0;
+    line-height: 1.4;
+}
